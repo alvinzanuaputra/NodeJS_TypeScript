@@ -1,0 +1,53 @@
+# === Node.js (Backend & Frontend) ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-store/
+.npm/
+
+# === Environment Files ===
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+
+# === Build Artifacts ===
+dist/
+build/
+.cache/
+frontend/.next/
+*.tsbuildinfo
+*.tgz
+
+# === IDE & OS Specific ===
+.vscode/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+.classpath
+.project
+.settings/
+
+# === Next.js ===
+frontend/next-env.d.ts
+frontend/.swc/
+
+# === SvelteKit (optional)
+.svelte-kit/
+.svelte/
+
+# === Vercel Deployment ===
+.vercel/
+
+# === Testing (e.g. Jest, Cypress) ===
+coverage/
+.nyc_output/
+
+# === Docker ===
+Dockerfile.orig
+
+# === Logs ===
+logs/
+*.log
